@@ -1,0 +1,16 @@
+#reservationMessage,
+#reservationMessage-2 {
+  background-color: #d3d3d3;
+  color: #0f0f0f;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+#reservationMessage,
+#reservationMessage-2 {
+  width: 102%; /* Adjust width as needed */
+
+}

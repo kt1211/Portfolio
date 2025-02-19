@@ -1,0 +1,78 @@
+.login-page-container {
+    width: 925px;
+    height: 730px;
+    margin: 0 auto;
+    background-color: rgb(34, 97, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .login-box {
+    width: 700px;
+    height: 590px;
+    padding: 20px;
+    background-color: #E5E5E5;
+  }
+  
+  .login-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center; /* Center align the heading */
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    height: 68px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .input-group input::placeholder {
+    color: #999;
+  }
+  
+  .forgot-password {
+    text-align: center; /* Center align the 'Forgot password?' link */
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password a {
+    color: #8F3C41; /* Color for 'Forgot password?' link */
+  }
+  
+  button {
+    width: 211px;
+    height: 68px;
+    padding: 10px;
+    background-color: #83baf5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: block; /* Ensure button is displayed as a block element */
+    margin: 0 auto; /* Center align the button */
+  }
+  
+  .LO {
+    background-color: #3F5988;
+  }
+  
+  .login-page-container {
+    background-color: #E5E5E5; /* Background color for the page container */
+  }
+  .abji {
+background-color: #3F5988;
+width: 700px;
+height: 100px;
+color: white;
+text-align: center;
+padding: 2px; /* Adjust padding as needed */
+display: flex;
+justify-content: center;
+align-items: center;
+}

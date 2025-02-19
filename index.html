@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple UI Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="rectangle-strip">
+        <div class="center-rectangle">
+            <div class="logo">
+                <img src="https://img.freepik.com/free-vector/lab-gradient-logo-design-color_361591-1891.jpg?w=740&t=st=1707478976~exp=1707479576~hmac=f962f817449a62e4348c007e369bc95fbdba70a915b93bcba78751e83c742a13" alt="Lab Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Pathology Lab Website Section -->
+    <div class="flight-booking-section">
+        <h3>Pathology Lab Website:</h3>
+        <p>Welcome to our Pathology Lab Website. Explore the essence of disease with us!</p>
+    </div>
+
+    <!-- Background Image Section -->
+    <div class="background-image">
+    </div>
+
+    <!-- Section Heading -->
+    <div class="section-heading-container">
+        <h1 class="section-heading">Exploring the Essence of Disease: Your Path to Understanding Pathology</h1>
+    </div>
+<!-- Appointment Section -->
+<div class="container">
+    <form>
+        <h1>Appointment Booking</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+
+    <!-- Product Section -->
+    <div class="product-section">
+        <!-- Product Cards -->
+        <div class="image-card">
+            <img src="image/vaxcin.png" alt="Indore">
+            <h2>Indore</h2>
+            <p>Starting at 6999</p>
+        </div>
+
+        <div class="image-card">
+            <img src="image/blood.png" alt="Ujjain">
+            <h2>Ujjain</h2>
+            <p>Starting at 9999</p>
+        </div>
+
+        <div class="image-card">
+            <img src="image/covid 19.png" alt="Dewas">
+            <h2>Dewas</h2>
+            <p>Starting at 11999</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Connect with us:</p>
+            <a href="#"><i class="fas fa-phone"></i> Call Us: 123-456-7890</a>
+            <a href="#"><i class="far fa-envelope"></i> Email Us: info@example.com</a>
+            <p>&copy; 2024 Doctor's Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
